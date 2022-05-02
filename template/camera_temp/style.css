@@ -229,3 +229,46 @@ i.right {
 .takenPhotos .third {
     filter: contrast(2);
 }
+
+button{
+	padding: 10px; /*space between border and content*/
+    border-top-style: dotted;
+	border-bottom-style: dashed;
+	border-left-style: ridge;
+	border-right-style: outset;
+	border-bottom-color: blue;
+	border-bottom-color: yellow;
+	border-left-color: orange;
+	border-right-color: pink;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-style: solid;
+	border-style: dashed; /* dashed border mainly used for coupens like amazon gift coupen*/
+	border-style: dotted;
+	border-style: double;
+	border-style: ridge;
+	border-style: groove;
+	border-style: inset;
+	border-style: outset;
+	border-width: 5px; /*Px for four sides*/
+	border-top-color:gray;
+	border-bottom-color: yellow;
+	border-left-color: orange;
+	border-right-color: lawngreen;
+	border-radius: 10px;
+    box-shadow: 10px 10px 10px black; 
+}
+h1{
+	padding: 10px; /*space between border and content*/
+	border-style: solid;
+	border-style: dashed; /* dashed border mainly used for coupens like amazon gift coupen*/
+	border-style: dotted;
+	border-style: double;
+	border-style: ridge;
+	border-style: groove;
+	border-style: inset;
+	border-style: outset;
+	border-width: 10px 15px 10px 15px; /*Px for four sides*/
+	border-color: greenyellow;
+	border-radius: 10px;
+}
